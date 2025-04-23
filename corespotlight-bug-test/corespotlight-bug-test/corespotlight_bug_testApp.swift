@@ -56,29 +56,29 @@ func addItemToIndex(_ item: QSpotlightItem) {
 func addToSpotlightIndex() {
     let spotlightHotel = QSpotlightItem(
                         id: "corespotlight_1",
-                        title: "Search for hotel accommodation",
+                        title: "查询酒店住宿",
                         contentDescription: "",
                         thumbnailImage: UIImage(named: "img2")?.pngData(),
-                        keywords: ["find", "welcome", "name"]
+                        keywords: ["酒店", "住宿"]
                     )
     addItemToIndex(spotlightHotel)
     
     let spotlightFlight = QSpotlightItem(
                         id: "corespotlight_2",
-                        title: "Search and book air tickets",
+                        title: "查询和预订机票",
                         contentDescription: "",
                         thumbnailImage: UIImage(named: "img2")?.pngData(),
-                        keywords: ["find", "welcome", "name"]
+                        keywords: ["查询", "预订", "机票"]
                     )
 
     addItemToIndex(spotlightFlight)
     
     let spotlightSight = QSpotlightItem(
                         id: "corespotlight_3",
-                        title: "Make inquiries about and book tickets for attractions",
+                        title: "查询预订门票",
                         contentDescription: "",
                         thumbnailImage: UIImage(named: "img2")?.pngData(),
-                        keywords: ["find", "welcome", "name"]
+                        keywords: ["查询", "预订", "门票"]
                     )
 
     addItemToIndex(spotlightSight)
